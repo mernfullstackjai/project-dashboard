@@ -8,7 +8,7 @@ body{
 }
 ul{
     list-style: none;
-    padding: 10px; 
+    padding: 5px; 
 }
 li{
     padding: 10px;
@@ -21,11 +21,13 @@ li{
 
 }
 li:hover{
+    
     background-color: rgb(40, 40, 40);
 }
 .first-heading{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 25px;
+    padding-top: 5px;
 }
 .dashboard{
     display: flex;
@@ -278,4 +280,10 @@ hr{
 #heading-second{
     display: inline;
     padding-left: 840px;
+}
+.bi{
+    padding-right: 10px;
+}
+.first-heading>i{
+    padding-right: 5px;
 }
